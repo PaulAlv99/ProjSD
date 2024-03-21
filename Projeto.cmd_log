@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/Utilizador/Desktop/SistemasDigitais_ProjFase1_PauloAlves_E_LeonardoFerreira/ProjetoFase1/Projeto.xst" -ofn "C:/Users/Utilizador/Desktop/SistemasDigitais_ProjFase1_PauloAlves_E_LeonardoFerreira/ProjetoFase1/Projeto.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilizador/Desktop/SistemasDigitais_ProjFase1_PauloAlves_E_LeonardoFerreira/ProjetoFase1/Projeto.xst" -ofn "C:/Users/Utilizador/Desktop/SistemasDigitais_ProjFase1_PauloAlves_E_LeonardoFerreira/ProjetoFase1/Projeto.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 Projeto.ngc Projeto.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Projeto_map.ncd Projeto.ngd Projeto.pcf 
+par -w -intstyle ise -ol high -mt off Projeto_map.ncd Projeto.ncd Projeto.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Projeto.twx Projeto.ncd -o Projeto.twr Projeto.pcf 
+vhdtdtfi -lib work C:/Users/Utilizador/Desktop/SistemasDigitais_ProjFase1_PauloAlves_E_LeonardoFerreira/ProjetoFase1/Projeto.v -lang verilog -prj ProjetoFase1 -o Projeto.spl -module Projeto -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Projeto.spl C:/Users/Utilizador/Desktop/SistemasDigitais_ProjFase1_PauloAlves_E_LeonardoFerreira/ProjetoFase1/Projeto.sym 
+vhdtdtfi -lib work C:/Users/Utilizador/Desktop/1/Projeto.v -lang verilog -prj ProjetoFase1 -o Projeto.spl -module Projeto -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+vhdtdtfi -lib work C:/Users/Utilizador/Desktop/1/Projeto.v -lang verilog -prj ProjetoFase1 -o Projeto.spl -module Projeto -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Projeto.spl C:/Users/Utilizador/Desktop/1/Projeto.sym 

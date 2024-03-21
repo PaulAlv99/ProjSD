@@ -1,0 +1,257 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Projeto.twx Projeto.ncd -o Projeto.twr Projeto.pcf
+
+Design file:              Projeto.ncd
+Physical constraint file: Projeto.pcf
+Device,package,speed:     xc6slx4,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock A<0> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Barreira    |        14.133(F)|      SLOW  |         7.423(F)|      FAST  |Par_Impar_G       |   0.000|
+Par_Impar   |        10.487(F)|      SLOW  |         5.078(F)|      FAST  |Par_Impar_G       |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock B<0> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Barreira    |        15.390(F)|      SLOW  |         8.098(F)|      FAST  |Par_Impar_G       |   0.000|
+Par_Impar   |        11.744(F)|      SLOW  |         5.753(F)|      FAST  |Par_Impar_G       |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock C<0> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Barreira    |        14.684(F)|      SLOW  |         8.057(F)|      FAST  |Par_Impar_G       |   0.000|
+Par_Impar   |        11.038(F)|      SLOW  |         5.712(F)|      FAST  |Par_Impar_G       |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock D<0> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Barreira    |        14.436(F)|      SLOW  |         8.004(F)|      FAST  |Par_Impar_G       |   0.000|
+Par_Impar   |        10.790(F)|      SLOW  |         5.659(F)|      FAST  |Par_Impar_G       |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock E<0> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Barreira    |        14.550(F)|      SLOW  |         8.181(F)|      FAST  |Par_Impar_G       |   0.000|
+Par_Impar   |        10.904(F)|      SLOW  |         5.836(F)|      FAST  |Par_Impar_G       |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock F<0> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Barreira    |        14.399(F)|      SLOW  |         8.230(F)|      FAST  |Par_Impar_G       |   0.000|
+Par_Impar   |        10.753(F)|      SLOW  |         5.885(F)|      FAST  |Par_Impar_G       |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock A<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+A<0>           |         |         |    2.981|    2.981|
+B<0>           |         |         |    4.238|    4.238|
+C<0>           |         |         |    3.532|    3.532|
+D<0>           |         |         |    3.284|    3.284|
+E<0>           |         |         |    3.398|    3.398|
+F<0>           |         |         |    3.247|    3.247|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock B<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+A<0>           |         |         |    1.816|    1.816|
+B<0>           |         |         |    3.073|    3.073|
+C<0>           |         |         |    2.367|    2.367|
+D<0>           |         |         |    2.119|    2.119|
+E<0>           |         |         |    2.233|    2.233|
+F<0>           |         |         |    2.082|    2.082|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock C<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+A<0>           |         |         |    1.991|    1.991|
+B<0>           |         |         |    3.248|    3.248|
+C<0>           |         |         |    2.542|    2.542|
+D<0>           |         |         |    2.294|    2.294|
+E<0>           |         |         |    2.408|    2.408|
+F<0>           |         |         |    2.257|    2.257|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock D<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+A<0>           |         |         |    2.097|    2.097|
+B<0>           |         |         |    3.354|    3.354|
+C<0>           |         |         |    2.648|    2.648|
+D<0>           |         |         |    2.400|    2.400|
+E<0>           |         |         |    2.514|    2.514|
+F<0>           |         |         |    2.363|    2.363|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock E<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+A<0>           |         |         |    1.714|    1.714|
+B<0>           |         |         |    2.971|    2.971|
+C<0>           |         |         |    2.265|    2.265|
+D<0>           |         |         |    2.017|    2.017|
+E<0>           |         |         |    2.131|    2.131|
+F<0>           |         |         |    1.980|    1.980|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock F<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+A<0>           |         |         |    1.681|    1.681|
+B<0>           |         |         |    2.938|    2.938|
+C<0>           |         |         |    2.232|    2.232|
+D<0>           |         |         |    1.984|    1.984|
+E<0>           |         |         |    2.098|    2.098|
+F<0>           |         |         |    1.947|    1.947|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |Impar<0>       |   10.042|
+A<0>           |Impar<1>       |   10.627|
+A<0>           |Impar<2>       |   11.695|
+A<0>           |Par<0>         |    9.570|
+A<0>           |Par<1>         |   10.402|
+A<0>           |Par<2>         |   10.007|
+A<1>           |Barreira       |   11.414|
+A<1>           |MatrVal        |   10.981|
+A<2>           |Barreira       |    9.962|
+A<2>           |MatrVal        |    9.529|
+A<3>           |Barreira       |   10.758|
+A<3>           |MatrVal        |   10.325|
+B<0>           |Impar<0>       |   10.705|
+B<0>           |Impar<1>       |   11.884|
+B<0>           |Impar<2>       |   12.952|
+B<0>           |Par<0>         |   10.816|
+B<0>           |Par<1>         |   11.659|
+B<0>           |Par<2>         |   11.264|
+B<1>           |Barreira       |   11.181|
+B<1>           |MatrVal        |   10.748|
+B<2>           |Barreira       |   11.514|
+B<2>           |MatrVal        |   11.081|
+B<3>           |Barreira       |   12.192|
+B<3>           |MatrVal        |   11.759|
+C<0>           |Impar<0>       |   10.310|
+C<0>           |Impar<1>       |   11.178|
+C<0>           |Impar<2>       |   12.246|
+C<0>           |Par<0>         |   10.636|
+C<0>           |Par<1>         |   10.953|
+C<0>           |Par<2>         |   10.558|
+C<1>           |Barreira       |   11.467|
+C<1>           |MatrVal        |   11.034|
+C<2>           |Barreira       |   11.542|
+C<2>           |MatrVal        |   11.109|
+C<3>           |Barreira       |   11.649|
+C<3>           |MatrVal        |   11.216|
+D<0>           |Impar<1>       |   10.755|
+D<0>           |Impar<2>       |   11.998|
+D<0>           |Par<0>         |   10.511|
+D<0>           |Par<1>         |   10.727|
+D<0>           |Par<2>         |   10.332|
+D<1>           |Barreira       |   11.876|
+D<1>           |MatrVal        |   11.443|
+D<2>           |Barreira       |   12.074|
+D<2>           |MatrVal        |   11.641|
+D<3>           |Barreira       |   10.614|
+D<3>           |MatrVal        |   10.181|
+Dia<0>         |Barreira       |   10.290|
+Dia<1>         |Barreira       |   10.647|
+Dia<2>         |Barreira       |   10.589|
+E<0>           |Impar<0>       |   10.947|
+E<0>           |Impar<1>       |   11.395|
+E<0>           |Impar<2>       |   11.574|
+E<0>           |Par<0>         |   10.923|
+E<0>           |Par<1>         |   11.281|
+E<0>           |Par<2>         |   10.886|
+E<1>           |Barreira       |   11.975|
+E<1>           |MatrVal        |   11.542|
+E<2>           |Barreira       |   11.849|
+E<2>           |MatrVal        |   11.416|
+E<3>           |Barreira       |   12.295|
+E<3>           |MatrVal        |   11.862|
+F<0>           |Impar<0>       |   11.030|
+F<0>           |Impar<1>       |   11.084|
+F<0>           |Impar<2>       |   11.602|
+F<0>           |Par<0>         |   11.001|
+F<0>           |Par<1>         |   11.130|
+F<0>           |Par<2>         |   10.735|
+F<1>           |Barreira       |   12.615|
+F<1>           |MatrVal        |   12.182|
+F<2>           |Barreira       |   12.676|
+F<2>           |MatrVal        |   12.243|
+F<3>           |Barreira       |   12.393|
+F<3>           |MatrVal        |   11.960|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Nov 03 09:00:30 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4554 MB
+
+
+

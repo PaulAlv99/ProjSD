@@ -1,0 +1,15 @@
+[Inputs]
+=A[3:0]=
+=B[3:0]=
+=C[3:0]=
+=D[3:0]=
+=E[3:0]=
+=F[3:0]=
+=Dia[2:0]=
+[Outputs]
+Barreira1
+MatrVal
+[BiDir]
+[ATTRIBUTES]
+VeriModel Projeto
+

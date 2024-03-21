@@ -1,0 +1,9 @@
+[Inputs]
+Barreira
+CLK
+[Outputs]
+LED
+[BiDir]
+[ATTRIBUTES]
+VeriModel Pisca
+

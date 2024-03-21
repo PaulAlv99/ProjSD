@@ -1,0 +1,426 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.27 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.27 secs
+ 
+--> Reading design: Projeto.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Projeto.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Projeto"
+Output Format                      : NGC
+Target Device                      : xc6slx4-3-tqg144
+
+---- Source Options
+Top Module Name                    : Projeto
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\Utilizador\Desktop\SistemasDigitais_ProjFase1_PauloAlves_E_LeonardoFerreira\ProjetoFase1\Projeto.v" into library work
+Parsing module <Projeto>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <Projeto>.
+WARNING:HDLCompiler:413 - "C:\Users\Utilizador\Desktop\SistemasDigitais_ProjFase1_PauloAlves_E_LeonardoFerreira\ProjetoFase1\Projeto.v" Line 68: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Utilizador\Desktop\SistemasDigitais_ProjFase1_PauloAlves_E_LeonardoFerreira\ProjetoFase1\Projeto.v" Line 73: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Utilizador\Desktop\SistemasDigitais_ProjFase1_PauloAlves_E_LeonardoFerreira\ProjetoFase1\Projeto.v" Line 77: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Utilizador\Desktop\SistemasDigitais_ProjFase1_PauloAlves_E_LeonardoFerreira\ProjetoFase1\Projeto.v" Line 82: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Utilizador\Desktop\SistemasDigitais_ProjFase1_PauloAlves_E_LeonardoFerreira\ProjetoFase1\Projeto.v" Line 86: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Utilizador\Desktop\SistemasDigitais_ProjFase1_PauloAlves_E_LeonardoFerreira\ProjetoFase1\Projeto.v" Line 90: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Utilizador\Desktop\SistemasDigitais_ProjFase1_PauloAlves_E_LeonardoFerreira\ProjetoFase1\Projeto.v" Line 95: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Utilizador\Desktop\SistemasDigitais_ProjFase1_PauloAlves_E_LeonardoFerreira\ProjetoFase1\Projeto.v" Line 99: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Utilizador\Desktop\SistemasDigitais_ProjFase1_PauloAlves_E_LeonardoFerreira\ProjetoFase1\Projeto.v" Line 104: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Utilizador\Desktop\SistemasDigitais_ProjFase1_PauloAlves_E_LeonardoFerreira\ProjetoFase1\Projeto.v" Line 108: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Utilizador\Desktop\SistemasDigitais_ProjFase1_PauloAlves_E_LeonardoFerreira\ProjetoFase1\Projeto.v" Line 113: Result of 4-bit expression is truncated to fit in 3-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Projeto>.
+    Related source file is "C:\Users\Utilizador\Desktop\SistemasDigitais_ProjFase1_PauloAlves_E_LeonardoFerreira\ProjetoFase1\Projeto.v".
+    Found 3-bit adder for signal <GND_1_o_GND_1_o_add_24_OUT> created at line 68.
+    Found 3-bit adder for signal <GND_1_o_GND_1_o_add_26_OUT> created at line 73.
+    Found 3-bit adder for signal <GND_1_o_GND_1_o_add_31_OUT> created at line 77.
+    Found 3-bit adder for signal <GND_1_o_GND_1_o_add_33_OUT> created at line 82.
+    Found 3-bit adder for signal <GND_1_o_GND_1_o_add_38_OUT> created at line 86.
+    Found 3-bit adder for signal <GND_1_o_GND_1_o_add_41_OUT> created at line 90.
+    Found 3-bit adder for signal <GND_1_o_GND_1_o_add_43_OUT> created at line 95.
+    Found 3-bit adder for signal <GND_1_o_GND_1_o_add_48_OUT> created at line 99.
+    Found 3-bit adder for signal <GND_1_o_GND_1_o_add_50_OUT> created at line 104.
+    Found 3-bit adder for signal <GND_1_o_GND_1_o_add_55_OUT> created at line 108.
+    Found 3-bit adder for signal <GND_1_o_GND_1_o_add_57_OUT> created at line 113.
+WARNING:Xst:737 - Found 1-bit latch for signal <Par_Impar>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 4-bit comparator greater for signal <n0000> created at line 46
+    Found 4-bit comparator greater for signal <n0002> created at line 46
+    Found 4-bit comparator greater for signal <PWR_1_o_A[3]_LessThan_13_o> created at line 49
+    Found 4-bit comparator greater for signal <PWR_1_o_B[3]_LessThan_14_o> created at line 49
+    Found 4-bit comparator greater for signal <PWR_1_o_C[3]_LessThan_15_o> created at line 49
+    Found 4-bit comparator greater for signal <PWR_1_o_D[3]_LessThan_16_o> created at line 49
+    Found 3-bit comparator greater for signal <PWR_1_o_GND_1_o_MUX_14_o> created at line 118
+    Found 3-bit comparator greater for signal <GND_1_o_Impar[2]_LessThan_63_o> created at line 120
+    Summary:
+	inferred  11 Adder/Subtractor(s).
+	inferred   1 Latch(s).
+	inferred   8 Comparator(s).
+	inferred  19 Multiplexer(s).
+Unit <Projeto> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 11
+ 3-bit adder                                           : 11
+# Latches                                              : 1
+ 1-bit latch                                           : 1
+# Comparators                                          : 8
+ 3-bit comparator greater                              : 2
+ 4-bit comparator greater                              : 6
+# Multiplexers                                         : 19
+ 1-bit 2-to-1 multiplexer                              : 2
+ 3-bit 2-to-1 multiplexer                              : 17
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 11
+ 3-bit adder                                           : 11
+# Comparators                                          : 8
+ 3-bit comparator greater                              : 2
+ 4-bit comparator greater                              : 6
+# Multiplexers                                         : 19
+ 1-bit 2-to-1 multiplexer                              : 2
+ 3-bit 2-to-1 multiplexer                              : 17
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:3002 - This design contains one or more registers/latches that are directly
+   incompatible with the Spartan6 architecture. The two primary causes of this is
+   either a register or latch described with both an asynchronous set and
+   asynchronous reset, or a register or latch described with an asynchronous
+   set or reset which however has an initialization value of the opposite 
+   polarity (i.e. asynchronous reset with an initialization value of 1).
+    While this circuit can be built, it creates a sub-optimal implementation
+   in terms of area, power and performance. For a more optimal implementation
+   Xilinx highly recommends one of the following:
+
+          1) Remove either the set or reset from all registers and latches
+             if not needed for required functionality
+          2) Modify the code in order to produce a synchronous set
+             and/or reset (both is preferred)
+          3) Ensure all registers have the same initialization value as the
+             described asynchronous set or reset polarity
+          4) Use the -async_to_sync option to transform the asynchronous
+             set/reset to synchronous operation
+             (timing simulation highly recommended when using this option)
+
+  Please refer to http://www.xilinx.com search string "Spartan6 asynchronous set/reset" for more details.
+
+  List of register instances with asynchronous set and reset:
+    Par_Impar in unit <Projeto>
+
+
+Optimizing unit <Projeto> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Projeto, actual ratio is 1.
+Latch Par_Impar has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Projeto.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 20
+#      GND                         : 1
+#      LUT2                        : 1
+#      LUT3                        : 4
+#      LUT4                        : 1
+#      LUT5                        : 8
+#      LUT6                        : 5
+# FlipFlops/Latches                : 2
+#      LD                          : 2
+# IO Buffers                       : 36
+#      IBUF                        : 27
+#      OBUF                        : 9
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx4tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               1  out of   4800     0%  
+ Number of Slice LUTs:                   19  out of   2400     0%  
+    Number used as Logic:                19  out of   2400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     19
+   Number with an unused Flip Flop:      18  out of     19    94%  
+   Number with an unused LUT:             0  out of     19     0%  
+   Number of fully used LUT-FF pairs:     1  out of     19     5%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                          36
+ Number of bonded IOBs:                  36  out of    102    35%  
+    IOB Flip Flops/Latches:               1
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Par_Impar_G(Par_Impar_G:O)         | NONE(*)(Par_Impar)     | 2     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 5.612ns
+   Maximum output required time after clock: 4.678ns
+   Maximum combinational path delay: 7.442ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Par_Impar_G'
+  Total number of paths / destination ports: 84 / 2
+-------------------------------------------------------------------------
+Offset:              5.612ns (Levels of Logic = 5)
+  Source:            B<0> (PAD)
+  Destination:       Par_Impar (LATCH)
+  Destination Clock: Par_Impar_G falling
+
+  Data Path: B<0> to Par_Impar
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.222   0.912  B_0_IBUF (B_0_IBUF)
+     LUT3:I0->O            5   0.205   1.059  Mmux_n016421 (Madd_GND_1_o_GND_1_o_add_43_OUT_lut<1>)
+     LUT5:I0->O            2   0.203   0.845  Mmux_Par31 (Par_2_OBUF)
+     LUT4:I1->O            2   0.205   0.721  GND_1_o_PWR_1_o_AND_14_o1 (GND_1_o_PWR_1_o_AND_14_o)
+     LUT3:I1->O            2   0.203   0.000  Par_Impar_D (Par_Impar_D)
+     LD:D                      0.037          Par_Impar
+    ----------------------------------------
+    Total                      5.612ns (2.075ns logic, 3.537ns route)
+                                       (37.0% logic, 63.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Par_Impar_G'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              4.678ns (Levels of Logic = 2)
+  Source:            Par_Impar (LATCH)
+  Destination:       Barreira (PAD)
+  Source Clock:      Par_Impar_G falling
+
+  Data Path: Par_Impar to Barreira
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.498   0.827  Par_Impar (Par_Impar_OBUF)
+     LUT5:I1->O            1   0.203   0.579  Mmux_Barreira11 (Barreira_OBUF)
+     OBUF:I->O                 2.571          Barreira_OBUF (Barreira)
+    ----------------------------------------
+    Total                      4.678ns (3.272ns logic, 1.406ns route)
+                                       (69.9% logic, 30.1% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 102 / 8
+-------------------------------------------------------------------------
+Delay:               7.442ns (Levels of Logic = 5)
+  Source:            F<1> (PAD)
+  Destination:       Barreira (PAD)
+
+  Data Path: F<1> to Barreira
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.222   1.015  F_1_IBUF (F_1_IBUF)
+     LUT6:I0->O            1   0.203   0.827  Mmux_MatrVal15 (Mmux_MatrVal14)
+     LUT6:I2->O            2   0.203   0.617  Mmux_MatrVal16 (MatrVal_OBUF)
+     LUT5:I4->O            1   0.205   0.579  Mmux_Barreira11 (Barreira_OBUF)
+     OBUF:I->O                 2.571          Barreira_OBUF (Barreira)
+    ----------------------------------------
+    Total                      7.442ns (4.404ns logic, 3.038ns route)
+                                       (59.2% logic, 40.8% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.75 secs
+ 
+--> 
+
+Total memory usage is 4485872 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   13 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

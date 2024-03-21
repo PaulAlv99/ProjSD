@@ -1,0 +1,87 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : ProjetoFase2.vf
+// /___/   /\     Timestamp : 12/09/2022 14:53:17
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog /home/ise/projects/1/ProjetoFase2.vf -w /home/ise/projects/1/ProjetoFase2.sch
+//Design Name: ProjetoFase2
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module ProjetoFase2(Dia, 
+                    Matricula, 
+                    Barreira, 
+                    CLK, 
+                    LED, 
+                    matricula1, 
+                    matricula2, 
+                    MatrVal);
+
+    input [2:0] Dia;
+    input [23:0] Matricula;
+   output Barreira;
+   output CLK;
+   output LED;
+   output [23:0] matricula1;
+   output [23:0] matricula2;
+   output MatrVal;
+   
+   wire [3:0] XLXN_11;
+   wire [3:0] XLXN_12;
+   wire [3:0] XLXN_13;
+   wire [3:0] XLXN_14;
+   wire [3:0] XLXN_15;
+   wire [3:0] XLXN_16;
+   wire XLXN_28;
+   wire XLXN_29;
+   wire MatrVal_DUMMY;
+   wire CLK_DUMMY;
+   wire Barreira_DUMMY;
+   
+   assign Barreira = Barreira_DUMMY;
+   assign CLK = CLK_DUMMY;
+   assign MatrVal = MatrVal_DUMMY;
+   OR  XLXI_1 (.Barreira1(XLXN_28), 
+              .Barreira2(XLXN_29), 
+              .Barreira(Barreira_DUMMY));
+   Barr2_fechar6  XLXI_2 (.CLK(CLK_DUMMY), 
+                         .MatrVal(MatrVal_DUMMY), 
+                         .Barreira2(XLXN_29));
+   CLOCK  XLXI_9 (.CLK(CLK_DUMMY));
+   Matricula_Dia  XLXI_11 (.Matricula(Matricula[23:0]), 
+                          .A(XLXN_11[3:0]), 
+                          .B(XLXN_12[3:0]), 
+                          .C(XLXN_13[3:0]), 
+                          .D(XLXN_14[3:0]), 
+                          .E(XLXN_15[3:0]), 
+                          .F(XLXN_16[3:0]));
+   Projeto  XLXI_12 (.A(XLXN_11[3:0]), 
+                    .B(XLXN_12[3:0]), 
+                    .C(XLXN_13[3:0]), 
+                    .D(XLXN_14[3:0]), 
+                    .Dia(Dia[2:0]), 
+                    .E(XLXN_15[3:0]), 
+                    .F(XLXN_16[3:0]), 
+                    .Barreira1(XLXN_28), 
+                    .MatrVal(MatrVal_DUMMY));
+   Guarda_matriculas  XLXI_15 (.CLK(CLK_DUMMY), 
+                              .Matricula(Matricula[23:0]), 
+                              .MatrVal(MatrVal_DUMMY), 
+                              .matricula1(matricula1[23:0]), 
+                              .matricula2(matricula2[23:0]));
+   LED_a_piscar  XLXI_17 (.Barreira(Barreira_DUMMY), 
+                         .CLK(CLK_DUMMY), 
+                         .LED(LED));
+endmodule
