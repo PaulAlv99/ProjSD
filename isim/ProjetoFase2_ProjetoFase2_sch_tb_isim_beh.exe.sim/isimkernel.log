@@ -1,0 +1,29 @@
+Command line:
+   ProjetoFase2_ProjetoFase2_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60242
+
+Sat Dec 10 18:04:57 2022
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 216.449 Meg
+
+ Total Signals          : 57
+ Total Nets             : 125
+ Total Signal Drivers   : 25
+ Total Blocks           : 10
+ Total Primitive Blocks : 8
+ Total Processes        : 39
+ Total Traceable Variables  : 39
+ Total Scalar Nets and Variables : 348
+Total Line Count : 181
+
+ Total Simulation Time: 0.04 sec
+
+ Current Memory Usage: 293.003 Meg
+
+Sat Dec 10 18:05:32 2022
+
