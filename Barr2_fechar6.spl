@@ -1,0 +1,9 @@
+[Inputs]
+MatrVal
+CLK
+[Outputs]
+Barreira2
+[BiDir]
+[ATTRIBUTES]
+VeriModel Barr2_fechar6
+

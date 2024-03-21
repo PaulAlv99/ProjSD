@@ -1,0 +1,10 @@
+[Inputs]
+MatrVal
+=conta_ciclos[6:0]=
+=Matricula[23:0]=
+[Outputs]
+=ciclos_fechado[6:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Barr6s
+

@@ -1,0 +1,10 @@
+vhdtdtfi -lib work C:/Users/Utilizador/Desktop/1/Cont_6.v -lang verilog -prj ProjetoFase1 -o Cont_6.spl -module Cont_6 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Cont_6.spl C:/Users/Utilizador/Desktop/1/Cont_6.sym 
+vhdtdtfi -lib work C:/Users/Utilizador/Desktop/1/Cont_6.v -lang verilog -prj ProjetoFase1 -o Cont_6.spl -module Cont_6 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Cont_6.spl C:/Users/Utilizador/Desktop/1/Cont_6.sym 
+vhdtdtfi -lib work C:/Users/Utilizador/Desktop/1/Cont_6.v -lang verilog -prj ProjetoFase1 -o Cont_6.spl -module Cont_6 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Cont_6.spl C:/Users/Utilizador/Desktop/1/Cont_6.sym 
+vhdtdtfi -lib work C:/Users/Utilizador/Desktop/1/Cont_6.v -lang verilog -prj ProjetoFase1 -o Cont_6.spl -module Cont_6 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Cont_6.spl C:/Users/Utilizador/Desktop/1/Cont_6.sym 
+vhdtdtfi -lib work C:/Users/Utilizador/Desktop/1/Cont_6.v -lang verilog -prj ProjetoFase1 -o Cont_6.spl -module Cont_6 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Cont_6.spl C:/Users/Utilizador/Desktop/1/Cont_6.sym 

@@ -1,0 +1,7 @@
+[Inputs]
+[Outputs]
+CLK
+[BiDir]
+[ATTRIBUTES]
+VeriModel CLOCK
+

@@ -1,0 +1,38 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/projects/1/ProjetoFase2_ProjetoFase2_sch_tb_isim_beh.exe -prj /home/ise/projects/1/ProjetoFase2_ProjetoFase2_sch_tb_beh.prj work.ProjetoFase2_ProjetoFase2_sch_tb work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/ise/projects/1/Projeto.v" into library work
+Analyzing Verilog file "/home/ise/projects/1/OR.v" into library work
+Analyzing Verilog file "/home/ise/projects/1/Matricula_Dia.v" into library work
+Analyzing Verilog file "/home/ise/projects/1/LED_a_piscar.v" into library work
+Analyzing Verilog file "/home/ise/projects/1/Guarda_matriculas.v" into library work
+Analyzing Verilog file "/home/ise/projects/1/CLOCK.v" into library work
+Analyzing Verilog file "/home/ise/projects/1/Barr2_fechar6.v" into library work
+Analyzing Verilog file "/home/ise/projects/1/ProjetoFase2.vf" into library work
+Analyzing Verilog file "/home/ise/projects/1/TestFase2.v" into library work
+Analyzing Verilog file "/home/ise/projects/1/Modulo_Abertura.vf" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "/home/ise/projects/1/ProjetoFase2.vf" Line 59: Port Q6 is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/ise/projects/1/ProjetoFase2.vf" Line 62: Port CLR is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 94944 KB
+Fuse CPU Usage: 830 ms
+Compiling module OR
+Compiling module Barr2_fechar6
+Compiling module CLOCK
+Compiling module Matricula_Dia
+Compiling module Projeto
+Compiling module Guarda_matriculas
+Compiling module LED_a_piscar
+Compiling module ProjetoFase2
+Compiling module ProjetoFase2_ProjetoFase2_sch_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 10 Verilog Units
+Built simulation executable /home/ise/projects/1/ProjetoFase2_ProjetoFase2_sch_tb_isim_beh.exe
+Fuse Memory Usage: 98596 KB
+Fuse CPU Usage: 870 ms
+GCC CPU Usage: 420 ms

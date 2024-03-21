@@ -1,0 +1,12 @@
+[Inputs]
+CLK
+MatrVal
+=Matricula[23:0]=
+=Q6[6:0]=
+[Outputs]
+Barreira2
+=conta_ciclos[6:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Barr2
+

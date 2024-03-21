@@ -1,0 +1,53 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Modulo_Abertura.vf
+// /___/   /\     Timestamp : 11/06/2022 10:21:35
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog /home/ise/projects/SistemasDigitais_ProjFase1_2120722_PauloAlexandreRodriguesAlves_2122422_LeonardoFilipeNobregaFerreira/Modulo_Abertura.vf -w /home/ise/projects/SistemasDigitais_ProjFase1_2120722_PauloAlexandreRodriguesAlves_2122422_LeonardoFilipeNobregaFerreira/Modulo_Abertura.sch
+//Design Name: Modulo_Abertura
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Modulo_Abertura(A, 
+                       B, 
+                       C, 
+                       D, 
+                       Dia, 
+                       E, 
+                       F, 
+                       Barreira, 
+                       MatrVal);
+
+    input [3:0] A;
+    input [3:0] B;
+    input [3:0] C;
+    input [3:0] D;
+    input [2:0] Dia;
+    input [3:0] E;
+    input [3:0] F;
+   output Barreira;
+   output MatrVal;
+   
+   
+   Projeto  XLXI_2 (.A(A[3:0]), 
+                   .B(B[3:0]), 
+                   .C(C[3:0]), 
+                   .D(D[3:0]), 
+                   .Dia(Dia[2:0]), 
+                   .E(E[3:0]), 
+                   .F(F[3:0]), 
+                   .Barreira(Barreira), 
+                   .MatrVal(MatrVal));
+endmodule

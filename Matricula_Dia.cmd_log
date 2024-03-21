@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/Utilizador/Desktop/1/Matricula_Dia.v -lang verilog -prj ProjetoFase1 -o Matricula_Dia.spl -module Matricula_Dia -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Matricula_Dia.spl C:/Users/Utilizador/Desktop/1/Matricula_Dia.sym 

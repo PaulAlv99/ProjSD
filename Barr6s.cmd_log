@@ -1,0 +1,6 @@
+vhdtdtfi -lib work C:/Users/Utilizador/Desktop/1/Barr6s.v -lang verilog -prj ProjetoFase1 -o Barr6s.spl -module Barr6s -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Barr6s.spl C:/Users/Utilizador/Desktop/1/Barr6s.sym 
+vhdtdtfi -lib work C:/Users/Utilizador/Desktop/1/Barr6s.v -lang verilog -prj ProjetoFase1 -o Barr6s.spl -module Barr6s -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Barr6s.spl C:/Users/Utilizador/Desktop/1/Barr6s.sym 
+vhdtdtfi -lib work C:/Users/Utilizador/Desktop/1/Barr6s.v -lang verilog -prj ProjetoFase1 -o Barr6s.spl -module Barr6s -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Barr6s.spl C:/Users/Utilizador/Desktop/1/Barr6s.sym 

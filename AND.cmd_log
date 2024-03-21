@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/Utilizador/Desktop/1/AND.v -lang verilog -prj ProjetoFase1 -o AND.spl -module AND -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 AND.spl C:/Users/Utilizador/Desktop/1/AND.sym 
